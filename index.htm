@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Talent & Top Development Services</title>
+    <link rel="shortcut icon" href="Images/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="rectangle"></div>
+        <!-- Nav Start Here -->
+        <div id="nav">
+            <div class="logo">
+                <span id="openSpan"></span>
+                <img src="Images/logo.jpg" alt="">
+            </div>
+            <div class="nav-items">
+                <div class="closeicon">
+                    <span></span>
+                </div>
+                <div class="nav-item">
+                    <a href="#">Hire Talent</a>
+                    <img src="Images/Dropdown Icon.png" alt="">
+                </div>
+                <div class="nav-item">
+                    <a href="#">What we do</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">Career</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">More</a>
+                    <img src="Images/Dropdown Icon.png" alt="">
+                </div>
+                <div class="nav-item">
+                    <a href="#">Blog</a>
+                </div>
+                <div class="nav-item">
+                    <button class="hireProBtn">Hire a Pro &nbsp;&nbsp;&nbsp;<img class="hireProBtnImg"
+                            src="Images/Forward Arrow.png" alt=""></button>
+                </div>
+
+            </div>
+            <button class="responsiveButton hireProBtn">Hire a Pro &nbsp;&nbsp;&nbsp;<img class="hireProBtnImg"
+                    src="Images/Forward Arrow.png" alt=""></button>
+        </div>
+        <!-- Nav End Here -->
+
+
+        <div class="hero-section-body" id="img1">
+            <div class="left-container-area">
+                <h1>Empowering Your Projects with Devsinc's Global Brilliance</h1>
+                <p>Devsinc is a flexible platform for tech companies to vet and hire top talent like software
+                    developers, designers, and quality assurance engineers who match their time zone and work
+                    model.
+                </p>
+                <button class="hireProBtn">Hire a Pro &nbsp;&nbsp;&nbsp;<img class="hireProBtnImg"
+                        src="Images/Forward Arrow.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="D-image">
+            <img src="Images/D.jpg" alt="">
+        </div>
+        <div class="container-2-content">
+            <h1>Save Your Time & Budget</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempora tenetur deserunt possimus
+                necessitatibus ut fugiat laudantium ducimus asperiores modi illo, nobis adipisci quia quod iste
+                corrupti.
+                Quae repellat doloremque soluta, eligendi maiores suscipit quisquam non exercitationem facilis! Commodi,
+                sint!</p>
+        </div>
+        <div class="box-section">
+            <div class="box-section-1">
+                <div class="box">
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad placeat voluptatem animi
+                        recusandae
+                        explicabo?</p>
+                </div>
+                <div class="box">
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad placeat voluptatem animi
+                        recusandae
+                        explicabo?</p>
+                </div>
+                <div class="box">
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad placeat voluptatem animi
+                        recusandae
+                        explicabo?</p>
+                </div>
+            </div>
+            <div class="box-section-2">
+                <div class="box">
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad placeat voluptatem animi
+                        recusandae
+                        explicabo?</p>
+                </div>
+                <div class="box">
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad placeat voluptatem animi
+                        recusandae
+                        explicabo?</p>
+                </div>
+                <div class="box">
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ad placeat voluptatem animi
+                        recusandae
+                        explicabo?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let nav = document.querySelector(".nav-items");
+        let openBtn = document.querySelector("#openSpan");
+        let closeBtn = document.querySelector(".closeicon")
+        let hero = document.querySelector(".hero-section-body")
+
+        openBtn.addEventListener("click", () => {
+            nav.style.left = "0"
+        })
+        closeBtn.addEventListener("click", () => {
+            nav.style.left = "-300px"
+        })
+        hero.addEventListener("click", () => {
+            if (nav.style.left = "0") {
+                nav.style.left = "-300px"
+                hero.style.filter = "(Blur)"
+            }
+        })
+    </script>
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="script-fot-this.js"></script>
+    <script src="https://kit.fontawesome.com/ce6d770e1b.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
